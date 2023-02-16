@@ -1,17 +1,18 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
   int my_num;
   float my_float;
-  double mydouble;
+  long int mydouble;
+  long long int mylng;
   char mystring;
 
   //sizeof opperator evaluates the size of the types
-  printf("size of int: %ld bytes\n",sizeof(my_num));
-  printf("size of float: %ld bytes\n",sizeof(my_float));
-  printf("size of double: %ld bytes\n",sizeof(mydouble));
-  printf("size of char: %ld bytes\n",sizeof(mystring));
-
+  printf("size of int: %lu byte(s)\n",sizeof(my_num));
+  printf("size of float: %lu byte(s)\n",sizeof(my_float));
+  printf("size of long int: %lu byte(s)\n",sizeof(mydouble));
+  printf("size of char: %lu byte(s)\n",sizeof(mystring));
+  printf("size of long long int: %lu byte(s)\n",sizeof(mylng));
   return 0;
 }
