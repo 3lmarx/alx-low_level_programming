@@ -8,8 +8,10 @@
  */
 
 int main(void)
-{
-fputs(stderr, "\"Programming is like building a multilingual puzzle\n");
 
+{
+char myshow[52];
+puts("\"Programming is like building a multilingual puzzle\n");
+puts(myshow);
 return (0);
 }
