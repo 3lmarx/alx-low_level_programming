@@ -4,7 +4,7 @@
 /**
  *main - Entry point 
  *
- *Retuen: Always 0 (Success)
+ *Return: Always 0 (Success)
  */
 
 int main(void)
@@ -14,6 +14,6 @@ for (digi = '0'; digi <= '9'; digi++)
 {
 putchar(digi);
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }

@@ -18,11 +18,13 @@ if (letter == 'z')
 {
 letter = 'A';
 for (; letter <= 'Z'; letter++)
+{
 putchar(letter);
 }
 break;
 }
 }
 putchar('\n');
+
 return (0);
 }

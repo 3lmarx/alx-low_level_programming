@@ -14,6 +14,6 @@ for (mynum = '0'; mynum <= '9'; mynum++)
 {
 putchar(mynum);
 }
-putchar('\n')
+ putchar('\n');
 return (0);
 }
