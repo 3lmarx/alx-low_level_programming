@@ -10,8 +10,8 @@
 int main(void)
 
 {
-char myshow[52];
+
 puts("\"Programming is like building a multilingual puzzle\n");
-puts(myshow);
+
 return (0);
 }
