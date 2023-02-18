@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- *main - Entry point 
+ *main - Entry point
  *
  *Return: Always 0 (Success)
  */
@@ -14,6 +14,6 @@ for (mynum = '0'; mynum <= '9'; mynum++)
 {
 putchar(mynum);
 }
- putchar('\n');
+putchar('\n');
 return (0);
 }
