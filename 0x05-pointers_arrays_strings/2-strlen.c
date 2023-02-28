@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- *strlen
+ *_strlen - returns the length of a string
  *
- *function that returns
- *length of string
+ *@s: string to evaluate
  *
- *Return: length of string
+ *Return: the length of the string
  *
  */
 
