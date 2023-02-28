@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- *puts2 - prints all characters
- *of a string starting with first 
- *character followed by new line
+ *puts2 - prints one char out of two of a string
+ *followed by a new line
+ *
+ *@str: string to print the chars from
  *
  */
 
