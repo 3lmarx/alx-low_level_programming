@@ -2,11 +2,9 @@
 #include "main.h"
 
 /**
- *puts
+ *_puts - prints a string to stdout
  *
- *function that prints
- *string followed by newline
- *to stdout
+ *@str: pointer to the string to print
  *
  */
 
