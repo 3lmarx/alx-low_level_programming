@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- *print_array - prints elements of n
+ *print_array - prints elements of an array of integers
  *
+ *@a: array to be printed
  *@n: elements of array stored here
  *
  */
