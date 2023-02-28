@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- *print_rev
+ *print_rev - prints a string in reverse, followed by a new line
  *
- *prints string
- *in reverse
+ *@s: string to be printed
  *
  */
 
@@ -21,4 +20,3 @@ for (rev--; rev >= 0; rev--)
 _putchar(s[rev]);
 _putchar('\n');
 }
-	
