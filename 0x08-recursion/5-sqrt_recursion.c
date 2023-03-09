@@ -20,6 +20,7 @@ return (actual_sqrt_recursion(n, 0));
  *actual_sqrt_recursion - recurses to find the natural
  *squar root of a number
  *@n: number to calculate the square root of
+ *@i: iterator
  *
  *Return: the resulting square root
  */
