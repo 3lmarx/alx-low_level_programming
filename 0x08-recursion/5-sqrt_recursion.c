@@ -21,7 +21,8 @@ return (actual_sqrt_recursion(n, 0));
  *squar root of a number
  *@n: number to calculate the square root of
  *
- *Return: the resulting square root*/
+ *Return: the resulting square root
+ */
 
 int actual_sqrt_recursion(int n, int i)
 {
