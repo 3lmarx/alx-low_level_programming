@@ -75,5 +75,6 @@ sum += num;
 }
 }
 printf("%d\n", sum);
+printf("\n");
 return (0);
 }
